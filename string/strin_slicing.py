@@ -12,4 +12,4 @@ print(my_str[6])
 
 print(my_str[3:6])  
 
-print(my_str[::-1])
+print(my_str[::-1]) #oirotiv

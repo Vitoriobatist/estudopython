@@ -1,1 +1,1 @@
-print(isinstance('vitorio', int))
+print(isinstance('vitorio', int)) # false 

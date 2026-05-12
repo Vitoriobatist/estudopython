@@ -18,16 +18,15 @@ outer_func()
 
 def outer_func():
     msg = 'Hello there!'
-    res = ""  # Declare res in the enclosing scope
+    res = ""  
 
     def inner_func():
         nonlocal res  # nonlocal serve para modificar e colocar valores dentro de uma varial externa (função externa ) -> (função principal)
         res = 'How are you?'
-        print(msg)  # Accessing msg from outer_func()
+        print(msg)  
 
     inner_func()
-    print(res)  # Now res is accessible and modified
-
+    print(res)  
 outer_func()
 
 idade =50 

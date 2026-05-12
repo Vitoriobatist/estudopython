@@ -11,7 +11,7 @@ voto = False
 idade = 19
 
 
-if voto or idade >= 18: # as duas variaves precisam ser true para cair na condição verdadeira. 
+if voto and idade >= 18: # as duas variaves precisam ser true para cair na condição verdadeira. 
     print("voce pode votar")
 else:
     print("voce não pode votar")
